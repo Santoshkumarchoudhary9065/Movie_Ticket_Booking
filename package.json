@@ -1,0 +1,41 @@
+{
+  "name": "movie-ticket-booking",
+  "version": "1.0.0",
+  "description": "Complete movie ticket booking system with React frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "start": "cd backend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movie",
+    "ticket",
+    "booking",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "typescript"
+  ],
+  "author": "Santosh Kumar Choudhary",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santoshkumarchoudhary9065/Movie_Ticket_Booking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Santoshkumarchoudhary9065/Movie_Ticket_Booking/issues"
+  },
+  "homepage": "https://github.com/Santoshkumarchoudhary9065/Movie_Ticket_Booking#readme"
+}
